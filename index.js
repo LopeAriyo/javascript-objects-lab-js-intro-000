@@ -29,3 +29,7 @@ var destructivelyDeleteFromObjectByKey = function (object, key){
   return object
 
 }
+
+object = delete object.key
+
+return object

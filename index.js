@@ -19,7 +19,6 @@ var deleteFromObjectByKey = function (object, key){
 
   return newObject
 
-
 }
 
 

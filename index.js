@@ -17,14 +17,14 @@ var deleteFromObjectByKey = function (object, key){
 
   var newObject = delete object.key
 
-  return newObject
+  return newObject // is undefined without return
 
 }
 
 
 var destructivelyDeleteFromObjectByKey = function (object, key){
 
-  delete object.key
+  delete object.prop
 
   return object
 
